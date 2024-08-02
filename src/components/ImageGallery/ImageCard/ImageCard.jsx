@@ -24,15 +24,3 @@ const ImageCard = ({ item, openModal }) => {
   );
 };
 export default ImageCard;
-
-// return (
-//   <>
-
-//       <img
-//       onClick={()=>{openModal(item)}}
-//         src={item.urls.small}
-//         alt={item.urls.alt_description}
-//         className={css.img}
-//       />
-
-//   </>
